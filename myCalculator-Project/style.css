@@ -1,0 +1,87 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    height: auto;
+    background-image: url(/resources/backgroundImage.gif);    
+    background-size: 1280px 610px;
+}
+
+#header {
+    height: auto;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+    outline: 2px solid brown;
+
+}
+
+#calculatorContainer {
+    height: 400px;
+    width: 300px;
+    border: 2px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    outline: 2px solid brown;
+}
+
+#screen{
+    height: 100px;
+    width: 300px;
+    color: white;
+    background-color: rgb(255, 165, 0, 0.1);
+    border-bottom: 1px solid white; 
+}
+
+#calcResult{
+    height: 20px;
+    padding: 10px;
+    width: 265px;
+    overflow: hidden;
+}
+
+#result {
+    height: 40px;
+    padding: 10px;
+    width: 265px;
+    font-size: 25px;
+    color: grey;
+    overflow: hidden;
+}
+
+#buttons{
+    height: 300px;
+    width: 300px;
+}
+
+#numberNine, #numberEight, #numberSeven, #numberSix,#numberFive,#numberFour,#numberThree,#numberTwo,#numberOne,#numberZero, #decimal, #clear, #sum , #subtract, #divide, #multiply{
+    width: 70.7px;
+    height: 74.8px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+#clear {
+    color:orange
+}
+
+#numberNine:hover, #numberEight:hover, #numberSeven:hover, #numberSix:hover,#numberFive:hover,#numberFour:hover,#numberThree:hover,#numberTwo:hover,#numberOne:hover,#numberZero:hover, #decimal:hover, #clear:hover, #sum:hover , #subtract:hover, #divide:hover, #multiply:hover{
+    background-color: orange;
+    color: black;
+}
+
